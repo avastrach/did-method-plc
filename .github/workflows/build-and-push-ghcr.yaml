@@ -20,7 +20,6 @@ env:
 
 jobs:
   plc-container-ghcr:
-    if: github.repository == 'did-method-plc/did-method-plc'
     runs-on: ubuntu-latest
     permissions:
       contents: read
